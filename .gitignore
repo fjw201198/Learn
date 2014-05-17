@@ -1,0 +1,18 @@
+#----------------------------------
+# ignore *.o and *.a file
+*.[oa]
+
+# ignore *.b and *.B file
+*.[bB]
+
+#----------------------------------
+# ignore bin file and bin directory
+bin
+# if you don't like to ignore the bin directory uncomment follow two lines
+## bin
+## !bin/
+# if you just want to ignore the directory uncomment the next line
+##bin/
+# Only ignore the bin directory and bin file but don't ignore the sub 
+#                                   direcoty, uncomment the next line.
+## /bin
